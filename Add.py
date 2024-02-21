@@ -8,5 +8,6 @@ for line in fh:
         continue
     count += 1
     niilber += float(line[20:].rstrip())
+    print("Yu baina da")
 print(niilber/count)
 print("Done")
