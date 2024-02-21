@@ -9,6 +9,6 @@ for line in fh:
     count += 1
     print("GitHub - аас өөрчлөлтийг local- руу татна.")
     niilber += float(line[20:].rstrip())
-    print("Yu baina da")
+    print("u baina da")
 print(niilber/count)
 print("Done")
