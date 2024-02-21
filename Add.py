@@ -7,6 +7,7 @@ for line in fh:
     if not line.startswith("X-DSPAM-Confidence:"):
         continue
     count += 1
+    print("GitHub - аас өөрчлөлтийг local- руу татна.")
     niilber += float(line[20:].rstrip())
     print("Yu baina da")
 print(niilber/count)
